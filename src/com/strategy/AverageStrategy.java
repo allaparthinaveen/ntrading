@@ -10,7 +10,15 @@ import com.utils.CalculationUtils;
 
 public class AverageStrategy {
 	
-	
+	/**
+	 * 
+	 * @param currentInvestment
+	 * @param currentNumberOfAsserts
+	 * @param currentAssertWorth
+	 * @param average
+	 * @param currentAssertValue
+	 * @return
+	 */
 	public static List<AveragePossibility> caliculateAveragePossibilities(BigDecimal currentInvestment, BigDecimal currentNumberOfAsserts,
 			BigDecimal currentAssertWorth, BigDecimal average, BigDecimal currentAssertValue){
 		List<AveragePossibility> possibilities =  new ArrayList<AveragePossibility>();
